@@ -1,0 +1,6 @@
+.directory-menu {
+    width: 100%; /*proportion*/
+    display: flex; /*responsive*/
+    flex-wrap: wrap; /*fit everything on the screen*/
+    justify-content: space-between;
+}

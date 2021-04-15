@@ -42,9 +42,9 @@ class SignUp extends React.Component {
     }
 
     handleChange = event => {
-        const {name, value} = event.target
+        const { name, value } = event.target
 
-        this.setState({[name]: value})
+        this.setState({ [name]: value })
     }
 
     render() {
@@ -86,10 +86,11 @@ class SignUp extends React.Component {
                         label='Confirm Password'
                         required
                     />
+                    <CustomButton type='submit'>
+                        SIGN UP
+                    </CustomButton>
                 </form>
-                <CustomButton type='submit'>
-                    SIGN UP
-                </CustomButton>
+                
             </div>
         )
     }
